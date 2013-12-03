@@ -1,0 +1,906 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"me",
+				"meshes"
+			],
+			[
+				"se",
+				"setJointAngle"
+			],
+			[
+				"Com",
+				"CommandProcessor"
+			],
+			[
+				"comm",
+				"CommandProcessor"
+			],
+			[
+				"des",
+				"desiredMotorSpeed"
+			],
+			[
+				"tim",
+				"timeNow"
+			],
+			[
+				"de",
+				"desiredMotorSpeed"
+			],
+			[
+				"s",
+				"speed"
+			],
+			[
+				"joint",
+				"jointBoostThreshold"
+			],
+			[
+				"ang",
+				"angle"
+			],
+			[
+				"an",
+				"angle"
+			],
+			[
+				"Joint",
+				"jointNumber"
+			],
+			[
+				"debug",
+				"debugJointNumber"
+			],
+			[
+				"cla",
+				"clampGain"
+			],
+			[
+				"cl",
+				"clampGain"
+			],
+			[
+				"ma",
+				"maxGain"
+			],
+			[
+				"digi",
+				"digitalRead"
+			],
+			[
+				"moni",
+				"monitorEncoderAngle"
+			],
+			[
+				"pot",
+				"potValue"
+			],
+			[
+				"Time",
+				"timeDifference"
+			],
+			[
+				"moto",
+				"motorNumber"
+			],
+			[
+				"motor",
+				"motorSpeed"
+			],
+			[
+				"pro",
+				"proportionalTerm"
+			],
+			[
+				"prop",
+				"Proportional"
+			],
+			[
+				"int",
+				"integralTerm"
+			],
+			[
+				"Int",
+				"integralGain"
+			],
+			[
+				"join",
+				"jointNumber"
+			],
+			[
+				"c",
+				"calculateMotorSpeed"
+			],
+			[
+				"e",
+				"encoderNumber"
+			],
+			[
+				"current",
+				"currentAngle"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"cur",
+				"currentAngle"
+			],
+			[
+				"angle",
+				"angleError"
+			],
+			[
+				"th",
+				"thirdAngleError"
+			],
+			[
+				"target",
+				"targetAngle"
+			],
+			[
+				"el",
+				"elbowTargetAngle"
+			],
+			[
+				"elb",
+				"elbowEncoderNumber"
+			],
+			[
+				"read",
+				"readEncoder"
+			],
+			[
+				"elbo",
+				"elbowTargetAngle"
+			],
+			[
+				"en",
+				"encoderNumber"
+			],
+			[
+				"deb",
+				"debugMotorNumber"
+			],
+			[
+				"Motor",
+				"MotorController"
+			],
+			[
+				"mo",
+				"monitorEncoderAngle"
+			],
+			[
+				"user",
+				"userInput"
+			],
+			[
+				"selec",
+				"selectedInput"
+			],
+			[
+				"input",
+				"inputNumber"
+			],
+			[
+				"inp",
+				"inputNumber"
+			],
+			[
+				"sec",
+				"section"
+			],
+			[
+				"var",
+				"var_export"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"can",
+				"cancellation"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"ti",
+				"timestamp"
+			],
+			[
+				"end_time",
+				"end_timestamp"
+			],
+			[
+				"is_A",
+				"is_array"
+			],
+			[
+				"isa",
+				"is_array"
+			],
+			[
+				"not",
+				"notification"
+			],
+			[
+				"in",
+				"intval"
+			],
+			[
+				"section",
+				"sectionData"
+			],
+			[
+				"course",
+				"courseData"
+			],
+			[
+				"cell",
+				"cellText"
+			],
+			[
+				"ta",
+				"tableRow"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"depa",
+				"department"
+			],
+			[
+				"getTerm",
+				"getTermCoursesAndSections"
+			],
+			[
+				"ur",
+				"urlencode"
+			],
+			[
+				"term",
+				"termData"
+			],
+			[
+				"preg_ma",
+				"preg_match_all"
+			],
+			[
+				"ca",
+				"cancellation"
+			],
+			[
+				"spe",
+				"specialInstructions"
+			],
+			[
+				"spec",
+				"special_instructions"
+			],
+			[
+				"speci",
+				"specialInstructions"
+			],
+			[
+				"notif",
+				"notification_sent"
+			],
+			[
+				"noti",
+				"notes_header_info"
+			],
+			[
+				"ph",
+				"phoneNumber"
+			],
+			[
+				"carr",
+				"carriers"
+			],
+			[
+				"cance",
+				"cancellation"
+			],
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"D",
+				"DIRECTORY_SEPARATOR"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"post",
+				"postTitle"
+			],
+			[
+				"po",
+				"postBody"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"border",
+				"border-spacing"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"news",
+				"newsPosts"
+			],
+			[
+				"page",
+				"pageCategory"
+			],
+			[
+				"pa",
+				"pageCategory"
+			],
+			[
+				"files",
+				"filesToSync"
+			],
+			[
+				"__",
+				"__config"
+			],
+			[
+				"__c",
+				"__changeFrequency"
+			],
+			[
+				"sho",
+				"showGui"
+			],
+			[
+				"im",
+				"importSystemSpecificFuctions"
+			],
+			[
+				"os",
+				"osSpecific"
+			],
+			[
+				"file",
+				"fileHandler"
+			],
+			[
+				"local",
+				"localPath"
+			],
+			[
+				"set",
+				"setWallPaper"
+			],
+			[
+				"row",
+				"rowHTML"
+			],
+			[
+				"ses",
+				"session_start"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"set syn c++",
+				"Set Syntax: C++"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/marekl/git-repositories/prometheus-presentation/.gitignore",
+		"/home/marekl/git-repositories/prometheus/narthex/js/three/prometheus.three.js",
+		"/home/marekl/git-repositories/prometheus/narthex/js/prometheus.js",
+		"/home/marekl/git-repositories/prometheus/narthex/server.py",
+		"/home/marekl/git-repositories/prometheus/narthex/vagrant/vagrantbootstrap.sh",
+		"/home/marekl/git-repositories/prometheus/narthex/Vagrantfile",
+		"/home/marekl/git-repositories/prometheus/.gitignore",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/sistineChapel.ino",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/robotArm.cpp",
+		"/home/marekl/git-repositories/prometheus/coding-standard.md",
+		"/home/marekl/git-repositories/prometheus/serial-communication.md",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/motorController.cpp",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/motorController.h",
+		"/home/marekl/git-repositories/prometheus/narthex/index.html",
+		"/home/marekl/Dropbox/Websites/Ecogate OQM V2/MVC Developer/js/estimations/edit.system.js",
+		"/home/marekl/Dropbox/Websites/Ecogate OQM V2/MVC Developer/js/estimations/edit.workstation.js",
+		"/home/marekl/Dropbox/Websites/Ecogate OQM V2/MVC Developer/js/estimations/edit.dataManager.js",
+		"/home/marekl/git-repositories/prometheus/narthex/crossdomain.xml",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/commandProcessor.cpp",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/commandProcessor.h",
+		"/home/marekl/pep8-programs/lab-3.pep",
+		"/home/marekl/pep8-programs/recursively-sum-up-numbers-from-5-down.pep",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/multiplexer.cpp",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/robotArm.h",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/multiplexer.h",
+		"/home/marekl/git-repositories/vagrant-ubuntu-oracle-xe/connect",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/debugger.h",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/debugger.cpp",
+		"/home/marekl/git-repositories/vagrant-oracle-xe/Vagrantfile",
+		"/home/marekl/git-repositories/original.ino",
+		"/home/marekl/Dropbox/School/2012 Summer/Mobile Robotics Programing/Lab 6/lab6.py",
+		"/home/marekl/Dropbox/School/2012 Summer/Mobile Robotics Programing/Lab 9/lab9.py",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/motorController.ino",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/Debugger.h",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/Debugger.cpp",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/diagnostics.ino",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/multiplexer.ino",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/libraries/motorController/motorController.h",
+		"/home/marekl/git-repositories/prometheus/sistineChapel/libraries/motorController/motorController.cpp",
+		"/home/marekl/git-repositories/microbase/MicroBase/dataObjects/company.data.class.php",
+		"/home/marekl/git-repositories/microbase/.htaccess",
+		"/home/marekl/git-repositories/microbase/.gitignore",
+		"/home/marekl/.ssh/config",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/.gitignore",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/composer.json",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/composer.lock",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/sftp-config.json",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/public/.htaccess",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/Vagrantfile",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/vagrant/vagrantbootstrap.sh",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/README.md",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/public/index.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/class.CronProcessor.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/class.DataGatherer.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.Section.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/vagrant/php.ini",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/bootstrap.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/vagrant/seed.sql",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/vagrant/default",
+		"/home/marekl/Dropbox/Settings/ubuntu-configure-custom-login-background.md",
+		"/home/marekl/Dropbox/Settings/ubuntu-disable-global-menu.md",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/index.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/.htaccess",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.Term.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.Student.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.SectionStudent.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.Instructor.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.Department.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.Course.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.CellCarrier.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.CancelledSection.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/func.autoloader.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/class.GoogleVoice.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.User.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.UserSection.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.CancelledClass.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.UserClass.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.Class.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/models/class.ClassNotMeeting.php",
+		"/home/marekl/Dropbox/Websites/Prism/public/local.dev/public/lib/data/icefilms.data.class.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/lib/func.rest_helper.php",
+		"/home/marekl/Dropbox/Websites/GCC-Class-Manager/gv-example.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/database.php",
+		"/home/marekl/Dropbox/Settings/ubuntu-yubikey-2fa-config.md",
+		"/etc/udev/rules.d/yubikey-screenlock.rules",
+		"/usr/local/bin/gnome-screensaver-lock",
+		"/home/marekl/Dropbox/Settings/ubuntu-ubikey-2fa-config.txt",
+		"/home/marekl/Dropbox/School/2012 Summer/Mobile Robotics Programing/Lab 2/irobot_linefollow.py",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/news/edit.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/header.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/news/imagelist.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/news/index.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/test.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/news/index-old-data.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/news/index-old.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/edit.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/idiorm.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/.htaccess",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/ales@ecogate.com@shell.ecogate.com",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/demo.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/contact.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/Illuminate/Database/Capsule/Manager.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/autoLoader.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/bootstrap/autoload.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/bootstrap/compiled.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/vendor/composer/ClassLoader.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/vendor/composer/autoload_real.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/vendor/autoload.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/vendor/composer/autoload_namespaces.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/vendor/composer/autoload_classmap.php",
+		"/home/marekl/Dropbox/Websites/Scene-Vagrant/public/local.dev/vendor/composer/autoload_namespaces.php",
+		"/home/marekl/Dropbox/Websites/Scene-Vagrant/public/local.dev/vendor/composer/autoload_classmap.php",
+		"/home/marekl/Dropbox/Websites/Scene-Vagrant/public/local.dev/vendor/composer/ClassLoader.php",
+		"/home/marekl/Dropbox/Websites/Scene-Vagrant/public/local.dev/vendor/composer/autoload_real.php",
+		"/home/marekl/Dropbox/Websites/Scene-Vagrant/public/local.dev/vendor/autoload.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/search.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/Ecogate-2007-DW-Web.sublime-workspace",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/search.html",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/home-commercial/volt-sensor.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/home-commercial/index.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/home-commercial/greenbox.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/home-commercial/gates.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/support/index.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/support/home-comercial.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/legacy-systems/index.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/index.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/sectionLinks/support.php",
+		"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/includes/sectionLinks/homeCommercial.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/support/",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/legacy-systems/",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/industrial/",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/home-comercial/",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/news/",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/home-comercial",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web",
+			"/home/marekl/Dropbox/Websites/Ecogate 2007 DW Web/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	",
+			"-50",
+			"	// ",
+			"50",
+			"	a",
+			"100",
+			"height",
+			"width",
+			"*",
+			"( ",
+			" )",
+			"window.innerHeight",
+			"window.innerWidth",
+			">",
+			"<",
+			"DEBUGGER_H",
+			"result",
+			"]",
+			"[",
+			"incomingByte",
+			"speed",
+			"75",
+			"20",
+			"speed",
+			"numMotors",
+			"0.0",
+			"float",
+			"lastPidTime",
+			"221",
+			"121",
+			"wrist",
+			"shoulder",
+			"elbow",
+			"wrist",
+			"debugPotNumber",
+			"elbow",
+			"wrist",
+			"Serial",
+			"Serial.",
+			"float",
+			"gain",
+			"maxGain",
+			"minGain",
+			"clampGain",
+			"[]",
+			"<=",
+			" = {0.0, 0.0, 0.0, 0.0, 0.0}",
+			"	",
+			"int ",
+			"float ",
+			"5",
+			"	",
+			"[5]",
+			"0",
+			"angle",
+			"50ms",
+			"100ms",
+			"angleError",
+			"//",
+			"'",
+			"//",
+			"'",
+			"[]",
+			";",
+			"[]",
+			"this->",
+			"[5]",
+			"5",
+			"0",
+			"[]",
+			"5",
+			"motorNumber",
+			"[]",
+			"1.0",
+			"PTerm",
+			"	",
+			"targetAngle",
+			"*",
+			"double",
+			"targetAngle",
+			"target",
+			"float",
+			"int",
+			"(motorNum - 1)",
+			"angle",
+			"Angle",
+			"angle",
+			"MULTIPLEXER_H",
+			"0",
+			"setPwm",
+			"	pwm",
+			"pwm",
+			"mux",
+			"debugState",
+			"debugMotorNumber",
+			")",
+			"debugInputValue",
+			";",
+			"void ",
+			"int",
+			"Multiplexer",
+			"channel",
+			".",
+			"0",
+			"mux",
+			"muxPin",
+			"muxPin0",
+			"pinMode(",
+			"mux",
+			"muxPin0",
+			"CRectangle",
+			"s",
+			"//",
+			"s",
+			"'",
+			"sudo debconf-set-selections <<< '",
+			"'",
+			"sudo debconf-set-selections <<< '",
+			"root'",
+			"root",
+			" | debconf-set-selections",
+			"echo",
+			"PUBLIC",
+			"BASE_PATH",
+			"www",
+			"0",
+			"'0'",
+			"0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"this->debuggerState",
+			"Yubikey",
+			"<END><h3>",
+			".",
+			"-",
+			"'",
+			"\"",
+			"-",
+			"search.php",
+			"home-commercial",
+			"src=\"news/images/",
+			"src=\"news/",
+			"",
+			"src=\"news/news_",
+			"src=\"images",
+			"",
+			"&copy;1998-2013",
+			"",
+			"All Rights Reserved"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dealer",
+				"dealers.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/marekl/Dropbox/Websites/Scene/Scene.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 330.0,
+	"status_bar_visible": true
+}
