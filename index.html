@@ -63,66 +63,127 @@
 
 				<!-- Mechanical -->
 				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
+					
 					<section>
 						<h2>Mechanical</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						
+						<img width="450" height="600" src="img/prometheus-overview.jpg" alt="Prometheus Mechanics" align="center" />
 					</section>
+					
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
+						<h2>Rainbowcorn</h2>
+						
+						<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
 					</section>
 				</section>
 
 				<!-- Electronics -->
 				<section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
+					
 					<section>
 						<h2>Electronics</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						
+						<img width="500" height="667" src="img/prometheus-electronics-breadboard.jpg" align="center" />
 					</section>
+					
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
+						<h3>What do the electronics consist of?</h3>
+						
+						<ul>
+							<li>Arduino Pro Mini<br />(Atmega328 micro-controller)</li>
+							<li>PWM generator</li>
+							<li>4&#60;&#62;16 Mux/Demux</li>
+							<li>Motor Drivers</li>
+						</ul>
+						
+						<img width="300" height="502" src="img/prometheus-electronics-solderboard.jpg" align="right" />
 					</section>
+					
 					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
+						<h3>Theory of Operation</h3>
+						
+						<ul>
+							<li>Arduino processes software and position sensor information and gives the PWM generator commands to move.<br /><br /></li>
+							<li>PWM generator translates these commands into speed and direction instructions for the motor drivers.<br /><br /></li>
+							<li>The motor drivers convert 5V logical signals into 12V high current signals.<br /><br /></li>
+						</ul>
 					</section>
+					
 					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
+						<h3>Example of Operation</h3>
+						
+						<img width="640" height="468" src="img/good-pwm.jpg" align="center" />
 					</section>
+					
+					<section>
+						<ul>
+							<li>The PWM generator creates a square waveform that is fed to the PWM input of the motor drivers.<br /><br /></li>
+							<li>The output of the motor drivers should look exactly the same as the PWM input, only instead of 5V amplitude, the output must be 12V amplitude.<br /><br /></li>
+							<li>The waveform should be clean, with no spikes or inconsistencies.<br /><br /></li>
+						</ul>
+					</section>
+					
+					<section>
+						<h3>Example of Trouble</h3>
+						
+						<img width="640" height="468" src="img/bad-pwm.jpg" align="center" />
+					</section>
+					
+					<section>
+						<h3>What was wrong?</h3>
+						
+						<ul>
+							<li>The output of the motor driver appears to be following the 25% duty cycle of the PWM<br /><br /></li>
+							<li>Oscillation during downtime, centered at about 8V indicates false triggering of the output transistors<br /><br /></li>
+							<li>Notice the output waveform never reaches 0V, instead floats around 8V<br /><br /></li>
+						</ul>
+					</section>
+					
+					<section>
+						<h3>What could cause this behavior?</h3>
+						
+						<ul>
+							<li>Cold solder joints<br /><br /></li>
+							<li>Damage due to overheating<br /><br /></li>
+							<li>Damage inflicted by ESD<br /><br /></li>
+						</ul>
+					</section>
+					
+					<section>
+						<h3>Cold Solder Joints</h3>
+						
+						<img width="750" height="562" src="img/cold-solder.jpg" align="center" />
+						
+						<p>Poor mechanical contact between two conductive surfaces.</p>
+					</section>
+					
+					<section>
+						<h3>ESD Caution</h3>
+						
+						<ul>
+							<li>
+								The dielectric breakdown <br />
+								of air at 1mm is approximately <br />
+								3kV. The human body can <br />
+								accumulate an excess <br />
+								of 20kV.<br /><br />
+							</li>
+							<li>
+								2kV is sufficient to fry <br />
+								most of our board <br />
+								components.
+							</li>
+						</ul>
+						
+						<img width="325" height="300" src="img/esd.png" align="right" />
+					</section>
+					
+					<section>
+						<h3>Schematic Diagram</h3>
+						
+						<img width="400" height="400" src="img/img2.jpg" align="center" />
+					</section>
+					
 				</section>
 
 				<!-- Software -->
@@ -130,9 +191,10 @@
 					
 					<section>
 						<h2>Software</h2>
+						
 						<ul>
-							<li>Two Micro-Controllers</li>
-							<li>Arduino Mini Pro</li>
+							<li>Two Devices</li>
+							<li>Arduino Pro Mini</li>
 							<li>Raspberry Pi</li>
 							<li>Communicate over Serial</li>
 						</ul>
@@ -146,13 +208,25 @@
 							</ul>
 						</aside>
 					</section>
+					
+					<section>
+						<h2>Original Code</h2>
+						
+						<ul>
+							<li>Only one source file</li>
+							<li>Very limited documentation</li>
+							<li>Manual "version control"</li>
+							<li>No remote control code</li>
+						</ul>
+					</section>
 
 					<section>
 						<h2>Version Control &amp; Documentation</h2>
+						
 						<ul>
-							<li>Based on code from previous team</li>
-							<li>Original code was not version controlled and poorly documented</li>
-							<li>Added all code to git repository</li>
+							<li>Implemented version control using Git</li>
+							<li>Specified basic documentation standard</li>
+							<li>Available under MIT license on GitHub</li>
 						</ul>
 
 						<aside class="notes">
@@ -165,17 +239,134 @@
 					
 					<section>
 						<h2>Arduino Software</h2>
+						
 						<ul>
 							<li>Written in C++</li>
 							<li>Directly controls the arm hardware</li>
 							<li>Based on code from previous team</li>
+							<li>Separated into sections to provide<br />layers abstraction</li>
 						</ul>
+						
+						<img width="225" height="400" src="img/arduino-pro-mini.jpg" align="right" />
 					</section>
 					
 					<section>
-						<h2>Raspberry Pi Software</h2>
+						<h2>Multiplexer Class</h2>
+						
 						<ul>
-							<li>Two parts</li>
+							<li>Controls the Multiplexer</li>
+							<li>Handles low level control</li>
+							<li>Exposes high level API</li>
+							<li>
+								Abstracts away details of how<br />
+								the Multiplexer functions
+							</li>
+						</ul>
+						
+						<img width="181" height="414" src="img/multiplexer.jpg" align="right" />
+					</section>
+					
+					<section>
+						<h2>Multiplexer Example</h2>
+						
+						<p>Before:</p>
+						
+						<pre><code data-trim>
+// Read input 7 on multiplexer
+pinMode(4, OUTPUT);
+pinMode(5, OUTPUT);
+pinMode(6, OUTPUT);
+pinMode(7, OUTPUT);
+digitalWrite(4, 1);
+digitalWrite(5, 1);
+digitalWrite(6, 1);
+digitalWrite(7, 0);
+int value = analogRead(A0);
+						</code></pre>
+						
+						<p>After:</p>
+						
+						<pre><code data-trim>
+// Read input 7 on multiplexer
+Multiplexer mux = Multiplexer();
+int value = mux.readInput(7);
+						</code></pre>
+					</section>
+										
+					<section>
+						<h2>Motor Controller Class</h2>
+						
+						<ul>
+							<li>Controls the PWM Board</li>
+							<li>Handles low level control</li>
+							<li>Exposes high level API</li>
+							<li>
+								Abstracts away details of how<br />
+								the PWM Board functions
+							</li>
+						</ul>
+						
+						<img width="200" height="487" src="img/pwm-board.jpg" align="right" />
+					</section>
+					
+					<section>
+						<h2>Motor Controller Example</h2>
+						
+						<p>Before:</p>
+						
+						<pre><code data-trim>
+// Set motor 3 to reverse at 50% speed
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
+pwm.begin();
+pwm.setPWMFreq(60);
+int speed = 50;
+int motor = 3;
+pwm.setPWM(3 * motor, 0, 4095); // INA to HIGH
+pwm.setPWM(3 * motor + 1, 4095, 0); // INB to LOW
+pwm.setPWM(3 * motor + 2, 0, int(speed * 40.95));
+						</code></pre>
+						
+						<p>After:</p>
+						
+						<pre><code data-trim>
+// Set motor 3 to reverse at 50% speed
+MotorController motor = MotorController();
+motor.setup();
+motor.speed(3, -50);
+						</code></pre>
+					</section>
+					
+					<section>
+						<h2>Robot Arm Class</h2>
+						
+						<ul>
+							<li>Provides an additional layer of abstraction</li>
+							<li>Uses the Multiplexer and Motor Controller Classes</li>
+							<li>Exposes the highest level API</li>
+						</ul>
+						
+						<pre><code data-trim>
+// Set the elbow joint to 135 degrees
+RobotArm arm = RobotArm();
+arm.setup();
+arm.elbow(135);
+						</code></pre>
+					</section>
+					
+					<section>
+						<h2>Command Processor Class</h2>
+						
+						<ul>
+							<li>Exposes the Robot Arm Class API over Serial</li>
+							<li>Allows for remote control and debugging</li>
+						</ul>
+					</section>
+										
+					<section>
+						<h2>Raspberry Pi Software</h2>
+						
+						<ul>
+							<li>Raspbian Linux</li>
 							<li>Server side: Python</li>
 							<li>Client side: Javascript</li>
 							<li>Communicate using AJAX</li>
@@ -186,16 +377,10 @@
 					
 					<section>
 						<h2>Python Server</h2>
-						<p>Facilitates communication between the Arduino and the Web interface.</p>
 						
-						<pre><code data-trim>
-server_address = (IP, PORT)
-server = BaseHTTPServer.HTTPServer(server_address, requestHandler)
-server.timeout = 0.01
-...
-comm = serial.Serial(SERIAL_PORT, 115200, timeout=0.01)
-comm.open()
-						</code></pre>
+						<p>Facilitates communication between the Arduino and the Javascript web interface.</p>
+						
+						<img width="954" height="297" src="img/prometheus-remote-control-diagram.png" align="right" style="border: none;" />
 
 						<aside class="notes">
 							<ul>
@@ -208,6 +393,7 @@ comm.open()
 					
 					<section>
 						<h2>Javascript Client</h2>
+						
 						<ul>
 							<li>Responsive UI - Works on PC,<br />tablet, and phone</li>
 							<li>Sends AJAX Requests to <br />to Python server</li>
@@ -221,12 +407,24 @@ comm.open()
 				
 				<section>
 					<h2>Live Demo</h2>
+					
 					<p>Its alive!</p>
+					<p>
+						<small>Sort Of...</small>
+					</p>
 				</section>
 
 				<section>
 					<h2>Future Work</h2>
-					<p>Its alive!</p>
+					
+					<ul>
+						<li>Possibly switch over to Beaglebone Black</li>
+						<li>Create wiring harness</li>
+						<li>Improve code documentation</li>
+						<li>Improve PID control accuracy</li>
+						<li>Design and print Gripper</li>
+						<li>This list needs work</li>
+					</ul>
 				</section>
 				
 				<section>
@@ -259,18 +457,14 @@ comm.open()
 				history: true,
 				center: true,
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
-
-				// Parallax scrolling
-				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-				// parallaxBackgroundSize: '2100px 900px',
+				theme: 'sky', 
+				transition: 'default', 
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					//{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					//{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
