@@ -373,6 +373,15 @@ arm.elbow(135);
 						</ul>
 						
 						<img width="475" height="270" src="img/raspberry-pi.jpg" align="right" />
+						
+						<aside class="notes">
+						<ul>
+							<li>Hardware is similar to an average smart phone.</li>
+							<li>Runs full fledged operating system. Linux.</li>
+							<li>SSH Server for remote access.</li>
+							<li>Will add access point to allow for simple connection over WiFi.</li>
+						</ul>
+					</aside>
 					</section>
 					
 					<section>
@@ -409,27 +418,46 @@ arm.elbow(135);
 					<h2>Live Demo</h2>
 					
 					<p>Its alive!</p>
+					
 					<p>
 						<small>Sort Of...</small>
 					</p>
+					
+					<aside class="notes">
+						Demo remote control interface.
+					</aside>
 				</section>
 
 				<section>
 					<h2>Future Work</h2>
 					
 					<ul>
-						<li>Possibly switch over to Beaglebone Black</li>
+						<li>Consider using Beaglebone Black</li>
 						<li>Create wiring harness</li>
 						<li>Improve code documentation</li>
-						<li>Improve PID control accuracy</li>
-						<li>Design and print Gripper</li>
-						<li>This list needs work</li>
+						<li>Fix PID control bugs</li>
+						<li>Fix bugs when controlling 5 joints at once</li>
+						<li>Tune PID controls and limits once the arm is assembled</li>
+						<li>Design and build Gripper</li>
+						<li>Consider an additional degree of freedom in the wrist.</li>
 					</ul>
+					
+					<aside class="notes">
+						<ul>
+							<li>Beaglebone Black would simplify the electronics. Combines Arduino, Multiplexer, PWM board, and Raspberry Pi.</li>
+							<li>PID Controls currently only work as Proportional.</li>
+							<li>The RobotArm Class cannot currently operate all 5 joints at once. Bugs.</li>
+							<li>PID gains need to be tuned for the actual completed joints.</li>
+							<li>The wrist is currently missing hinge type motion.</li>
+						</ul>
+					</aside>
 				</section>
 				
 				<section>
 					<h1>THE END</h1>
+					
 					<h4>Presented By:</h4>
+					
 					<p>
 						<small>
 							Marek Litomisky<br />
