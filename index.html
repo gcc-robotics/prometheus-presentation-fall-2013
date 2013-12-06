@@ -71,9 +71,128 @@
 					</section>
 					
 					<section>
-						<h2>Rainbowcorn</h2>
+						<h2>What are the mechanical parts?</h2>
 						
-						<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
+						<img width="600" height="450" src="img/bearings-and-holders.jpg" align="center">
+					</section>
+
+					<section>
+						<h2>Bearings</h2>
+
+						<ul>
+							<li>
+								Previous joints used one <br />
+								radial ball bearings for the <br />
+								rotational shafts.<br /><br />
+							</li>
+							<li>
+								New design uses two needle <br />
+								bearings at top and bottom <br />
+								contact points to prevent <br />
+								skipping of teeth which are <br />
+								damaging to the arm.
+							</li>
+						</ul>
+						
+						<img width="400" height="533" src="img/bearings.jpg" align="right">
+					</section>
+
+					<section>
+						<h2>Mounts</h2>
+
+						<ul>
+							<li>
+								Previous design: radial ball <br />
+								bearing centered on the <br />
+								mount with a 6mm shaft <br />
+								for joint rotation<br /><br />
+							</li>
+							<li>
+								New design uses a 13mm <br />
+								inner diameter bearing <br />
+								offset from center by <br />
+								17.75mm
+							</li>
+						</ul>
+						
+						<img width="400" height="533" src="img/bottom-bearing-holder.jpg" align="right">
+					</section>
+
+					<section>
+						<h2>Couplers</h2>
+
+						<ul>
+							<li>
+								Previous couplers used <br />
+								set screws which <br />
+								wouldn't set properly <br />
+								on the shafts and had <br />
+								lots of backlash.<br /><br />
+							</li>
+							<li>
+								New design uses a <br />
+								clamping coupler which <br />
+								will not allow any <br />
+								rotational play. 
+							</li>
+						</ul>
+						
+						<img width="400" height="533" src="img/couplers.jpg" align="right">
+					</section>
+
+					<section>
+						<h2>Gears</h2>
+
+						<ul>
+							<li>
+								Previous gears were 45 <br />
+								degree bevel gears set <br />
+								on two 6mm shafts with <br />
+								set screws. 1:1 gear ratio <br />
+								and stripped teeth.<br /><br />
+							</li>
+							<li>
+								New design incorporates <br />
+								a worm gear system which <br />
+								reduced the gear ratio to <br />
+								20:1 which will allow for <br />
+								slower movement. 13mm <br />
+								diameter solid shaft vs. <br />
+								6mm shaft with set screws.
+							</li>
+						</ul>
+						
+						<img width="400" height="533" src="img/gears.jpg" align="right">
+					</section>
+
+					<section>
+						<h2>Bearing Holder</h2>
+
+						<ul>
+							<li>
+								Previous design was <br />
+								missing a support system <br />
+								for the bevel gears which <br />
+								allowed the gears to skip <br />
+								and break teeth.<br /><br />
+							</li>
+							<li>
+								New design uses a top <br />
+								bearing support for the <br />
+								worm which will not allow <br />
+								the worm to travel <br />
+								outwards and skip teeth <br />
+								which will damage the gears.
+							</li>
+						</ul>
+						
+						<img width="400" height="533" src="img/top-bearing-holder.jpg" align="right">
+					</section>
+
+					<section>
+						<h2>Mechanical Overview</h2>
+						
+						<img width="882" height="586" src="img/entire-arm-assembly.jpg" align="center">
 					</section>
 				</section>
 
@@ -422,10 +541,30 @@ arm.elbow(135);
 					<p>
 						<small>Sort Of...</small>
 					</p>
+
+					<img class="fragment" width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
 					
 					<aside class="notes">
 						Demo remote control interface.
 					</aside>
+				</section>
+
+				<section>
+					<h2>Failures</h2>
+					
+					<ul>
+						<li>Striping gears in several joints</li>
+						<li>Joint slop</li>
+						<li>Software testing</li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li class="fragment">Requisitioning process</li>
+					</ul>
 				</section>
 
 				<section>
@@ -441,6 +580,7 @@ arm.elbow(135);
 						<li>Tune PID controls and limits once the arm is assembled</li>
 						<li>Design and build Gripper</li>
 						<li>Consider an additional degree of freedom in the wrist.</li>
+						<li>Fix joint backlash</li>
 					</ul>
 					
 					<aside class="notes">
